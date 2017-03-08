@@ -84,17 +84,17 @@
                 <DropShadowEffect ShadowDepth="2" BlurRadius="4" Direction="270" Opacity="0.305"/>
             </Button.Effect>
         </Button>
-        <Button x:Name="button3" Content="Another Conditional Test" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" FontFamily="Roboto" FontStyle="Italic" Width="140">
+        <Button x:Name="button3" Content="Another Conditional Test" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" FontFamily="Roboto" FontStyle="Italic" Width="140" Click="button3_Click">
             <Button.Effect>
                 <DropShadowEffect ShadowDepth="2" BlurRadius="4" Direction="270" Opacity="0.305"/>
             </Button.Effect>
         </Button>
-        <Button x:Name="button2" Content="If/Else" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Style="{DynamicResource ItalicRobotoLightWithDropShadow}" FontFamily="Roboto" FontStyle="Italic" Width="46">
+        <Button x:Name="button2" Content="If/Else" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Style="{DynamicResource ItalicRobotoLightWithDropShadow}" FontFamily="Roboto" FontStyle="Italic" Width="46" Click="button2_Click">
             <Button.Effect>
                 <DropShadowEffect ShadowDepth="2" BlurRadius="4" Direction="270" Opacity="0.305"/>
             </Button.Effect>
         </Button>
-        <Button x:Name="button4" Content="A Loop" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" FontFamily="Roboto" FontStyle="Italic" Width="49">
+        <Button x:Name="button4" Content="A Loop" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" FontFamily="Roboto" FontStyle="Italic" Width="49" Click="button4_Click">
             <Button.Effect>
                 <DropShadowEffect ShadowDepth="2" BlurRadius="4" Direction="270" Opacity="0.305"/>
             </Button.Effect>
