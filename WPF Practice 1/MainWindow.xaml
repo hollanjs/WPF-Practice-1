@@ -79,7 +79,7 @@
                 <GradientStop Color="#FF3C3C3C" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Button x:Name="button1" Content="Show A Message" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" Background="#FFCFCFCF" BorderBrush="#FFF9F9F9" BorderThickness="0,0,1,1" FontFamily="roboto" FontStyle="Italic" Style="{DynamicResource ItalicRobotoLightWithDropShadow}" Width="101">
+        <Button x:Name="button1" Content="Show A Message" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" Background="#FFCFCFCF" BorderBrush="#FFF9F9F9" BorderThickness="0,0,1,1" FontFamily="roboto" FontStyle="Italic" Style="{DynamicResource ItalicRobotoLightWithDropShadow}" Width="101" Click="button1_Click">
             <Button.Effect>
                 <DropShadowEffect ShadowDepth="2" BlurRadius="4" Direction="270" Opacity="0.305"/>
             </Button.Effect>
@@ -99,7 +99,7 @@
                 <DropShadowEffect ShadowDepth="2" BlurRadius="4" Direction="270" Opacity="0.305"/>
             </Button.Effect>
         </Button>
-        <TextBlock x:Name="myLabel" HorizontalAlignment="Center" Margin="0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Center" Grid.ColumnSpan="2" Height="70" Width="304" Foreground="White"/>
+        <TextBlock x:Name="myLabel" HorizontalAlignment="Center" Margin="0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Center" Grid.ColumnSpan="2" Height="70" Width="304" Foreground="White" TextAlignment="Center"/>
 
     </Grid>
 </Window>

@@ -24,5 +24,15 @@ namespace WPF_Practice_1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            string name = "Josh Hollandsworth";
+            int x = 3;
+            x = x * 17;
+            double d = Math.PI / 2;
+
+            myLabel.Text = $"Name: {name}\nx: {x}\nd: {d}";
+        }
     }
 }
